@@ -29,9 +29,11 @@ with DAG(dag_id='postgres_task', start_date=datetime(2022, 1, 1),
 ```
 connection id was made on the airflow UI for postgres called "postgres_default"
 ## DAG
-<img width="1440" alt="Screenshot 2023-06-15 at 4 18 44 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/3aab92cb-b041-4113-a80e-5dae48e78594">
+<img width="1314" alt="Screenshot 2023-06-22 at 2 18 45 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/14b196d7-987a-4d0b-81b8-657229ff9473">
+
 ## Docker Container with the TABLE
-<img width="1440" alt="Screenshot 2023-06-15 at 4 07 17 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/63423804-a788-4801-ad4a-6fab9bd8755b">
+<img width="1317" alt="Screenshot 2023-06-22 at 2 18 59 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/9d53df0b-165f-4e2d-a231-6379106045b3">
+
 
 # KUBERNETIES TASK
 INSTALL MINIKUBE TO START A KUBERNETES CLUSTER
@@ -91,9 +93,11 @@ vim postgres2.py
 ```
 Now come to the local machine terminal and use "minikube service airflow" to run the airflow dag in the minikube.
 
-<img width="1440" alt="Screenshot 2023-06-15 at 4 04 35 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/949691a0-0644-4a26-85b6-58dd6e21c242">
-We can then again get back into the postgres pod and run the psql command to get the tables created on airflow.
+<img width="1303" alt="Screenshot 2023-06-22 at 2 19 11 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/c5608bb7-2db5-44eb-92b0-11e5b3dced66">
 
-<img width="1440" alt="Screenshot 2023-06-15 at 4 20 29 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/5144b7ba-6f36-4390-8565-a5a19ae3416c">
+We can then again get back into the postgres pod and run the psql command to get the tables created on airflow.
+<img width="1315" alt="Screenshot 2023-06-22 at 2 19 24 PM" src="https://github.com/rithish1126/DOCKER_KUBERNETIES/assets/122535424/7fbbb383-7f6b-4373-881b-45ba8932fc63">
+
+
 
 
